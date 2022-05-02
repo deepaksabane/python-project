@@ -1,4 +1,4 @@
-FROM python
+FROM ubuntu
 COPY . /app
 WORKDIR /app
 COPY req.txt .
